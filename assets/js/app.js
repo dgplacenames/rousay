@@ -19,7 +19,7 @@ var properties = [{
   },
 },
 {
-  value: "Description remarks",
+  value: "Description_remarks",
   label: "Description remarks",
   table: {
     visible: true,
@@ -30,7 +30,7 @@ var properties = [{
   },
 },
 		  {
-  value: "Various modes of spelling",
+  value: "Various_modes_of_spelling",
   label: "Various modes of spelling",
   table: {
     visible: true,
@@ -41,7 +41,7 @@ var properties = [{
   },
 },
 {
-  value: "Authorities for spelling",
+  value: "Authorities_for_spelling",
   label: "Authorities for spelling",
   table: {
     visible: true,
@@ -72,7 +72,7 @@ var properties = [{
   filter: false,
 },		  
 {
-  value: "Map sheet(s)",
+  value: "Map_sheet(s)",
   label: "Map sheet(s)",
   table: {
     visible: true,
@@ -97,7 +97,7 @@ var properties = [{
   },
 },
 {
-  value: "Grid ref",
+  value: "Grid_ref",
   label: "Grid ref",
   table: {
     visible: true,
