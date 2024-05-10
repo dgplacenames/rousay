@@ -349,7 +349,7 @@ var featureLayer = L.geoJson(null, {
     if (feature.properties && feature.properties["marker-color"]) {
       markerColor = feature.properties["marker-color"];
     } else {
-      markerColor = "#ffa300";
+      markerColor = "#d81900";
     }
     return L.circleMarker(latlng, {
       radius: 4,
