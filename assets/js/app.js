@@ -106,8 +106,7 @@ var properties = [{
   filter: {
     type: "string"
   },
-},
-];
+}];
 
 function drawCharts() {
   // Status
