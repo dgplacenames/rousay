@@ -3,7 +3,7 @@ var config = {
   title: "Rousay Parish Place-Names",
   layerName: "Names",
   hoverProperty: "Name",
-  sortProperty: "",
+  sortProperty: "Name",
   sortOrder: ""
 };
 
@@ -70,7 +70,6 @@ var properties = [{
   table: {
     visible: true,
     sortable: true,
-    formatter: urlFormatter
   },
   filter: false,
   info: true,	
