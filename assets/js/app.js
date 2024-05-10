@@ -403,7 +403,7 @@ $.getJSON(config.geojson, function (data) {
 });
 
 var map = L.map("map", {
-  layers: [OSM, featureLayer, highlightLayer]
+  layers: [OS1, featureLayer, highlightLayer]
 }).fitWorld();
 
 
