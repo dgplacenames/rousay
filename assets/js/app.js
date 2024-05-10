@@ -17,7 +17,6 @@ var properties = [{
   filter: {
     type: "string"
   },
-  info: true
 },
 {
   value: "Description remarks",
@@ -62,7 +61,6 @@ var properties = [{
   filter: {
     type: "string"
   },
-  info: true
 },
 {
   value: "Page",
@@ -72,7 +70,6 @@ var properties = [{
     sortable: true,
   },
   filter: false,
-  info: true,	
 },		  
 {
   value: "Map sheet(s)",
@@ -82,7 +79,6 @@ var properties = [{
     sortable: true,
   },
   filter: false,
-  info: true,	
 },
 {
   value: "Isle",
@@ -99,7 +95,6 @@ var properties = [{
     operators: ["in", "not_in", "equal", "not_equal"],
     values: []
   },
-  info: true
 },
 {
   value: "Grid ref",
@@ -111,7 +106,6 @@ var properties = [{
   filter: {
     type: "string"
   },
-  info: true
 },
 ];
 
