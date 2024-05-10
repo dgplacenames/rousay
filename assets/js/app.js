@@ -81,7 +81,6 @@ var properties = [{
   table: {
     visible: true,
     sortable: true,
-    formatter: urlFormatter
   },
   filter: false,
   info: true,	
