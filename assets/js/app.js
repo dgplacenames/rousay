@@ -293,65 +293,33 @@ function buildConfig() {
 var OSM = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
+  attribution: 'Basemap <a href="https://www.openstreetmap.org/copyright/" target="_blank">© OpenStreetMap</a>'
 });
 
 var satellite = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
   maxZoom: 19,
   subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
+  attribution: 'Basemap <a href="https://www.arcgis.com/home/item.html?id=c03a526d94704bfb839445e80de95495/" target="_blank">© Esri</a>'
 });
 
 
-var mapboxSat = L.tileLayer("https://mapseries-tilesets.s3.amazonaws.com/os/6inchfirst/{z}/{x}/{y}.png", {
+var OS1 = L.tileLayer("https://mapseries-tilesets.s3.amazonaws.com/os/6inchfirst/{z}/{x}/{y}.png", {
   maxZoom: 19,
   subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
+  attribution: 'Basemap <a href="https://maps.nls.uk/os/6inch/" target="_blank">National Library of Scotland</a>'
 });
 
 var OS2 = L.tileLayer("https://api.maptiler.com/tiles/uk-osgb10k1888/{z}/{x}/{y}.jpg?key=lctZzs518h1OEqcsh2zL", {
   maxZoom: 19,
   subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
-});
-
-var OS25 = L.tileLayer("https://api.maptiler.com/tiles/uk-osgb25k1937/{z}/{x}/{y}.jpg?key=lctZzs518h1OEqcsh2zL", {
-  maxZoom: 19,
-  subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
+  attribution: 'Basemap <a href="https://maps.nls.uk/os/6inch-2nd-and-later/" target="_blank">National Library of Scotland</a>'
 });
 
 var geological = L.tileLayer("https://mapseries-tilesets.s3.amazonaws.com/geological/oneinchscot/{z}/{x}/{y}.png", {
   maxZoom: 19,
   subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
+  attribution: 'Basemap <a href="https://maps.nls.uk/geological/one-inch/" target="_blank">National Library of Scotland</a>'
 });
-
-var Roy = L.tileLayer("https://mapseries-tilesets.s3.amazonaws.com/roy/lowlands/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
-});
-
-var LiDAR_4 = L.tileLayer("https://geo.nls.uk/mapdata3/lidar/rgb/phase4/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
-});
-
-var LiDAR_3 = L.tileLayer("https://geo.nls.uk/mapdata3/lidar/rgb/phase3/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
-});
-
-var LiDAR_1 = L.tileLayer("https://geo.nls.uk/mapdata3/lidar/rgb/phase1/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  subdomains: ["a", "b", "c", "d"],
-  attribution: 'Basemap <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
-});
-
-var LiDAR = L.layerGroup([LiDAR_4, LiDAR_3, LiDAR_1])
 
 var highlightLayer = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
@@ -465,16 +433,12 @@ if (document.body.clientWidth <= 767) {
 var baseLayers = {
   "OpenStreetMap": OSM,
   "Esri Satellite": satellite,
-  "OS 1st ed.": mapboxSat,
+  "OS 1st ed.": OS1,
   "OS 2nd ed.": OS2,
-  "OS 1:25,000.": OS25,
-  "OS 1-inch Geology": geological,
-  "Roy (1752-55)": Roy,
   
 };
 var overlayLayers = {
   "<span id='layer-name'>GeoJSON Layer</span>": featureLayer,
-  "LiDAR": LiDAR,
 };
 var layerControl = L.control.layers(baseLayers, overlayLayers, {
   collapsed: isCollapsed
