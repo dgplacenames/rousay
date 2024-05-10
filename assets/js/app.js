@@ -431,10 +431,11 @@ if (document.body.clientWidth <= 767) {
   isCollapsed = false;
 }
 var baseLayers = {
-  "OpenStreetMap": OSM,
-  "Esri Satellite": satellite,
   "OS 1st ed.": OS1,
   "OS 2nd ed.": OS2,
+  "OS 1-inch Geology": geological,
+  "OpenStreetMap": OSM,
+  "Esri Satellite": satellite,
   
 };
 var overlayLayers = {
