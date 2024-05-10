@@ -34,7 +34,7 @@ var properties = [{
   label: "Various modes of spelling",
   table: {
     visible: true,
-    sortable: false
+    sortable: true
   },
   filter: {
     type: "string",
@@ -45,7 +45,7 @@ var properties = [{
   label: "Authorities for spelling",
   table: {
     visible: true,
-    sortable: false
+    sortable: true
   },
   filter: {
     type: "string",
