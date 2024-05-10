@@ -27,7 +27,7 @@ var properties = [{
   },
   filter: {
     type: "string",
-  }
+  },
 },
 		  {
   value: "Various modes of spelling",
@@ -38,7 +38,7 @@ var properties = [{
   },
   filter: {
     type: "string",
-  }
+  },
 },
 {
   value: "Authorities for spelling",
@@ -49,7 +49,7 @@ var properties = [{
   },
   filter: {
     type: "string",
-  }
+  },
 },
 		  {
   value: "Extras",
@@ -94,7 +94,7 @@ var properties = [{
     multiple: true,
     operators: ["in", "not_in", "equal", "not_equal"],
     values: []
-  }
+  },
 },
 {
   value: "Grid ref",
