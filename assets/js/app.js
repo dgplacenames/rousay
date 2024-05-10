@@ -103,9 +103,7 @@ var properties = [{
     visible: true,
     sortable: true
   },
-  filter: {
-    type: "string"
-  },
+  filter: false
 }];
 
 function drawCharts() {
