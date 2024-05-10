@@ -94,7 +94,7 @@ var properties = [{
     multiple: true,
     operators: ["in", "not_in", "equal", "not_equal"],
     values: []
-  },
+  }
 },
 {
   value: "Grid ref",
