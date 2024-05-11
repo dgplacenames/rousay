@@ -31,7 +31,7 @@ Feature Info popup
 
 Filter: 'Name' contains 'geo', Map View
 
-![Filter: 'Name' contains 'geo', Map View][(https://raw.githubusercontent.com/fulcrumapp/geojson-dashboard/gh-pages/screenshots/info.png)
+![Filter: 'Name' contains 'geo', Map View](https://raw.githubusercontent.com/dgplacenames/rousay/main/screenshots/geo.png)
 
 Filter: 'Authorities for spelling' contains 'Robert Logie'
 
