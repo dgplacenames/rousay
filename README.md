@@ -25,19 +25,19 @@ The Name Books digitized at [Scotland'sPlaces](https://scotlandsplaces.gov.uk/) 
 
 ## Screenshots
 
-Feature Info popup
+### Feature Info popup
 
 ![Info](https://raw.githubusercontent.com/dgplacenames/rousay/main/screenshots/popup.png)
 
-Filter: 'Name' contains 'geo', Map View
+### Filter: 'Name' contains 'geo', Map View
 
 ![Filter: 'Name' contains 'geo', Map View](https://raw.githubusercontent.com/dgplacenames/rousay/main/screenshots/geo.png)
 
-Filter: 'Authorities for spelling' contains 'Robert Logie'
+### Filter: 'Authorities for spelling' contains 'Robert Logie'
 
 ![Filter: 'Authorities for spelling' contains 'Robert Logie'](https://raw.githubusercontent.com/dgplacenames/rousay/main/screenshots/robert_logie.png)
 
-Filter: thatched houses in good repair on Rousay, Map View, satellite layer
+### Filter: thatched houses in good repair on Rousay, Map View, satellite layer
 
 ![Filter: thatched houses in good repair on Rousay, Map View, satellite layer](https://raw.githubusercontent.com/dgplacenames/rousay/main/screenshots/filters.png)
 
