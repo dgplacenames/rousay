@@ -1,6 +1,6 @@
 # Rousay Parish Place-Names
 Search and explore the places recorded in Volume 16 of the Orkney Ordnance Survey Object Name Books.
-The Name Books digitized at [Scotland'sPlaces](https://scotlandsplaces.gov.uk/) are a fantastic resource but searching them can be difficult. This map enables detailed searching and querying of a subset of that data. See the screenshots below for examples.
+The Name Books digitized at [Scotland'sPlaces](https://scotlandsplaces.gov.uk/) are a fantastic resource but searching them can be difficult. This map enables detailed searching and querying of a subset of that data. See the screenshots below for examples. <i>I've made no attempt to correct transcription errors in the scraped text.</i>
 
 ## Features
 * Simple search
