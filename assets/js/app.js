@@ -1,6 +1,6 @@
 var config = {
   geojson: "rousay.geojson",
-  title: "Rousay Parish Place-Names",
+  title: "Rousay Parish Place-Names 1879",
   layerName: "Names",
   hoverProperty: "Name",
   sortProperty: "Name",
