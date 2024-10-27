@@ -282,32 +282,32 @@ function buildConfig() {
 // Basemap Layers
 
 var OSM = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
+  maxZoom: 16,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Basemap <a href="https://www.openstreetmap.org/copyright/" target="_blank">© OpenStreetMap</a> | <a href="https://github.com/dgplacenames/rousay/" target="_blank">dgplacenames</a>'
 });
 
 var satellite = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-  maxZoom: 19,
+  maxZoom: 16,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Basemap <a href="https://www.arcgis.com/home/item.html?id=c03a526d94704bfb839445e80de95495/" target="_blank">© Esri</a> | <a href="https://github.com/dgplacenames/rousay/" target="_blank">dgplacenames</a>'
 });
 
 
 var OS1 = L.tileLayer("https://mapseries-tilesets.s3.amazonaws.com/os/6inchfirst/{z}/{x}/{y}.png", {
-  maxZoom: 19,
+  maxZoom: 16,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Basemap <a href="https://maps.nls.uk/os/6inch/" target="_blank">National Library of Scotland</a> | <a href="https://github.com/dgplacenames/rousay/" target="_blank">dgplacenames</a>'
 });
 
 var OS2 = L.tileLayer("https://api.maptiler.com/tiles/uk-osgb10k1888/{z}/{x}/{y}.jpg?key=lctZzs518h1OEqcsh2zL", {
-  maxZoom: 19,
+  maxZoom: 17,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Basemap <a href="https://maps.nls.uk/os/6inch-2nd-and-later/" target="_blank">National Library of Scotland</a> | <a href="https://github.com/dgplacenames/rousay/" target="_blank">dgplacenames</a>'
 });
 
 var geological = L.tileLayer("https://mapseries-tilesets.s3.amazonaws.com/geological/oneinchscot/{z}/{x}/{y}.png", {
-  maxZoom: 19,
+  maxZoom: 16,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Basemap <a href="https://maps.nls.uk/geological/one-inch/" target="_blank">National Library of Scotland</a> | <a href="https://github.com/dgplacenames/rousay/" target="_blank">dgplacenames</a>'
 });
